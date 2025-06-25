@@ -112,3 +112,8 @@ if __name__ == "__main__":
         save_to_file(m3u_content)
     else:
         print("Geçerli domain alınamadı.")
+
+
+
+    
+  
