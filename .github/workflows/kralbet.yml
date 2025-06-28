@@ -24,7 +24,6 @@ jobs:
       - name: Bağımlılıkları Kur
         run: |
           pip install requests beautifulsoup4
-
       - name: kralbet.py Scriptini Çalıştır
         run: python Pythonlar/kralbet.py
 
