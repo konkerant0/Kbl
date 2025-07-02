@@ -186,35 +186,4 @@ https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://tv1.are
 https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://tv1.arectv30.sbs/live/sinema1001.m3u8
 #EXTINF:-1 tvg-name="SİNEMA TV 1002" tvg-id="52" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/sinema-1002-tr.png" group-title="🎬 Sinema",SİNEMA TV 1002
 https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://tv1.arectv30.sbs/live/sinema1002.m3u8
-#EXTINF:-1 tvg-name="KRAL POP TV" tvg-id="" tvg-logo="https://i.ibb.co/vk0bKz0/kral-pop.png" group-title="🎵 Müzik",KRAL POP TV
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 tvg-name="POWER TV" tvg-id="" tvg-logo="https://i.ibb.co/JrXDQJy/power-tv.png" group-title="🎵 Müzik",POWER TV
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playist.m3u8
-#EXTINF:-1 tvg-name="POWER TÜRK TV" tvg-id="" tvg-logo="https://i.ibb.co/xXcBD2C/powerturk.png" group-title="🎵 Müzik",POWER TÜRK TV
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8
-#EXTINF:-1 tvg-name="POWER TÜRK AKUSTİK" tvg-id="" tvg-logo="https://i.ibb.co/xXcBD2C/powerturk.png" group-title="🎵 Müzik",POWER TÜRK AKUSTİK
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="POWER TÜRK SLOW" tvg-id="" tvg-logo="https://i.ibb.co/R4pcKqK/powerturk-slow.png" group-title="🎵 Müzik",POWER TÜRK SLOW
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" tvg-id="" tvg-logo="https://i.ibb.co/F5K5xs9/powerturk-taptaze.png" group-title="🎵 Müzik",POWER TÜRK TAPTAZE
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="DREAM TÜRK TV" tvg-id="" tvg-logo="https://i.ibb.co/fxRrKmB/dream-turk.png" group-title="🎵 Müzik",DREAM TÜRK TV
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 tvg-name="FİNEST TV" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXZTP2HMJ2_UQCTj5shGuB057tuyrLfNMRg&s" group-title="🎵 Müzik",FİNEST TV
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://media.finest.tv/hls/live.m3u8
-#EXTINF:-1 tvg-name="NUMBER TÜRK TV" tvg-id="" tvg-logo="https://static.ssportplus.com/wp-content/uploads/2024/03/nr1turk-768x768.png" group-title="🎵 Müzik",NUMBER TÜRK TV
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8?md5=T5XRaMShyuirhEdm4U70yQ&expires=1745141016
-#EXTINF:-1 tvg-name="TRT ÇOCUK" tvg-id="" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png" group-title="🧒 Çocuk",TRT ÇOCUK
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="TRT DİYANET ÇOCUK" tvg-id="" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png" group-title="🧒 Çocuk",TRT DİYANET ÇOCUK
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="CARTOON NETWORK" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg" group-title="🧒 Çocuk",CARTOON NETWORK
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://tv1.arectv30.sbs/live/cartoonnetwork.m3u8
-#EXTINF:-1 tvg-name="MİNİKA GO" tvg-id="" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/minika-go-tr.png" group-title="🧒 Çocuk",MİNİKA GO
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://trkvz-live.daioncdn.net/minikago/minikago.m3u8
-#EXTINF:-1 tvg-name="MİNİKA ÇOCUK" tvg-id="" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/minika-cocuk-tr.png" group-title="🧒 Çocuk",MİNİKA ÇOCUK
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://trkvz-live.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:-1 tvg-name="BABY TV HD" tvg-id="35" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxTEFUEuKR8h4oQmICzD5DWbCQ-hB014K4ww&s" group-title="🧒 Çocuk",BABY TV HD
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://vavoo.to/play/1758313456/index.m3u8
-#EXTINF:-1 tvg-name="Disney JR" tvg-id="33" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFSG6NE19lkP7OKZcQXQgPY3iXLI9p1P8EQ&s" group-title="🧒 Çocuk",Disney JR
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://vavoo.to/play/649228722/index.m3u8
+
