@@ -7,8 +7,7 @@ class TRGoals:
     def __init__(self, m3u_dosyasi):
         self.m3u_dosyasi = m3u_dosyasi
         self.httpx = Client(timeout=10, verify=False)
-        # Proxy URL'sini sınıf özelliğine ekledik
-        self.proxy_url_sablonu = "https://vettelchannel-trgoals.hf.space/proxy/m3u?url="
+    
 
     def referer_domainini_al(self):
         referer_deseni = r'#EXTVLCOPT:http-referrer=(https?://[^/]*trgoals[^/]*\.[^\s/]+)'
