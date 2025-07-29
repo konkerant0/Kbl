@@ -1,41 +1,35 @@
-name: TRGoals M3U Güncelleyici
+name: Generate TRGOALS M3U
 
 on:
   schedule:
-    # Her 3 saatte bir çalışır (örn: 00:00, 03:00, 06:00, ..., 21:00 UTC)
-    - cron: '0 */3 * * *'
+    - cron: '0 */6 * * *'  # Her 6 saatte bir
   workflow_dispatch:
-    # Bu, GitHub arayüzünden manuel olarak çalıştırmana olanak tanır.
 
 jobs:
-  update-m3u:
+  generate:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write # Depoya yazma izni veriyoruz
+    timeout-minutes: 15
 
     steps:
-    - name: Depoyu Kopyala
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-    - name: Python Ortamını Kur
-      uses: actions/setup-python@v5
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.x' # Kullandığın Python sürümünü buraya yaz (örn: '3.9', '3.10', '3.11')
+        python-version: '3.10'
 
-    - name: Bağımlılıkları Yükle
-      run: |
-        python -m pip install --upgrade pip
-        pip install Kekik httpx parsel
+    - name: Install dependencies
+      run: pip install requests
 
-    - name: M3U Dosyasını Güncelle
+    - name: Generate M3U
       run: |
-        python Pythonlar/trgoals.py # Python scriptinin dosya adını buraya yaz
+        python trgoals.py
+        echo "Dosya boyutu: $(du -h trgoals.m3u)"
 
-    - name: Değişiklikleri Git'e Kaydet (Commit)
+    - name: Commit and push
       run: |
-        git config user.name 'github-actions[bot]'
-        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
         git add trgoals.m3u
-        git commit -am "Otomatik: TRGoals M3U güncellendi" || echo "Değişiklik yok, commit atlanıyor."
+        git diff --cached --quiet || git commit -m "Auto: TRGOALS M3U Update"
         git push
