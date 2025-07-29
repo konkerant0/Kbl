@@ -2,7 +2,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-KRAL_BET = "https://lll.istekbet3.tv"
+KRAL_BET = "https://95724.zirvestream1.cfd"
 BASE_URL = "https://royalvipcanlimac.com/channels.php"
 LINK_PREFIX = "https://1029kralbettv.com"
 M3U_FILE = "kralbet.m3u"
