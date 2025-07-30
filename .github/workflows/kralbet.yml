@@ -2,7 +2,7 @@ name: Kralbet M3U Güncelleme
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Her gün saat 12:00 (UTC)
+    - cron: '0 12 * * *'  # Her gün saat 14:00 (UTC)
   workflow_dispatch:
   push:
     paths:
