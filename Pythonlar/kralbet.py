@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 KRAL_BET = "https://95724.zirvestream1.cfd"
 BASE_URL = "https://royalvipcanlimac.com/channels.php"
-LINK_PREFIX = "https://1029kralbettv.com"
+LINK_PREFIX = "https://1030kralbettv.com"
 M3U_FILE = "kralbet.m3u"
 
 r = requests.get(PROXY_PREFIX + BASE_URL)
