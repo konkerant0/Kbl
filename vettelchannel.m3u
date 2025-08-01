@@ -34,9 +34,9 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/shm
 #EXTINF:-1 tvg-name="A HABER" tvg-id="" tvg-logo="https://i.ibb.co/Hhjcgm3/a-haber.png" group-title="🗞️ Haber",A HABER
 https://vavoo.to/play/535272601/index.m3u8
 #EXTINF:-1 tvg-name="A PARA" tvg-id="" tvg-logo="https://i.ibb.co/FnT7ftQ/a-para.png" group-title="🗞️ Haber",A PARA
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://vavoo.to/play/2318923445/index.m3u8
+https://vavoo.to/play/2318923445/index.m3u8
 #EXTINF:-1 tvg-name="HABER GLOBAL" tvg-id="Haber Global.tr" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/haber-global-tr.png" group-title="🗞️ Haber",HABER GLOBAL
-https://vettelchannelowner-vettel-channel.hf.space/proxy/m3u?url=https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 #EXTINF:-1 tvg-name="KANAL 24" tvg-id="Kanal 24.tr" tvg-logo="https://i.ibb.co/tHQpWvn/24.png" group-title="🗞️ Haber",KANAL 24
 https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 #EXTINF:-1 tvg-name="HABER TÜRK" tvg-id="Haber Turk.tr" tvg-logo="https://i.ibb.co/5GmcTH9/haberturk.png" group-title="🗞️ Haber",HABER TÜRK
@@ -101,6 +101,168 @@ https://vavoo.to/play/3989995533/index.m3u8
 https://vavoo.to/play/2113462398/index.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS 1 [B]" tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-1.png" group-title="⚽ beIN Sports",beIN SPORTS 1 [B]
 https://vavoo.to/play/267105889/index.m3u8
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://live-cdn-65984.varplaycdn.cfd/601/index.m3u8
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+https://live-cdn-65984.varplaycdn.cfd/602/index.m3u8
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+https://live-cdn-65984.varplaycdn.cfd/603/index.m3u8
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+https://live-cdn-65984.varplaycdn.cfd/604/index.m3u8
+#EXTINF:-1 group-title="☪️ b5",🟣 b5
+https://live-cdn-65984.varplaycdn.cfd/605/index.m3u8
+#EXTINF:-1 group-title="☪️ m1",🟣 m1
+https://live-cdn-65984.varplaycdn.cfd/801/index.m3u8
+#EXTINF:-1 group-title="☪️ m2",🟣 m2
+https://live-cdn-65984.varplaycdn.cfd/802/index.m3u8
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://lively1.cf4-86.workers.dev/static/bs1.m3u8
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+https://lively1.cf4-86.workers.dev/static/bs2.m3u8
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+https://lively1.cf4-86.workers.dev/static/bs3.m3u8
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+https://lively1.cf4-86.workers.dev/static/bs4.m3u8
+#EXTINF:-1 group-title="☪️ b5",🟣 b5
+https://lively1.cf4-86.workers.dev/static/bs5.m3u8
+#EXTINF:-1 group-title="☪️ m1",🟣 m1
+https://tv.arectv34.sbs/live/bm1.m3u8
+#EXTINF:-1 group-title="☪️ m2",🟣 m2
+https://tv.arectv34.sbs/live/bm2.m3u8
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://goldvod.org/tv/strm?id=5062
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+https://goldvod.org/tv/strm?id=5063
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+https://goldvod.org/tv/strm?id=5064
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+https://goldvod.org/tv/strm?id=5065
+#EXTINF:-1 group-title="☪️ b5",🟣 b5
+https://goldvod.org/tv/strm?id=5066
+#EXTINF:-1 group-title="☪️ m1",🟣 m1
+https://goldvod.org/tv/strm?id=5067
+#EXTINF:-1 group-title="☪️ m2",🟣 m2
+https://goldvod.org/tv/strm?id=5068
+#EXTINF:-1 group-title="☪️ b1",🟣 b1 
+https://1.nejyoner19.workers.dev/?url=http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/49352
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://1.nejyoner19.workers.dev/?url=http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/39559
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://1.nejyoner19.workers.dev/?url=https://zeusplayer.org:443/live/Gee123/Gee321/423548.ts
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://1.nejyoner19.workers.dev/?url=https://zeusplayer.org:443/live/Gee123/Gee321/423549.ts
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+https://1.nejyoner19.workers.dev/?url=http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/39562
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+https://1.nejyoner19.workers.dev/?url=http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/39558
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+https://1.nejyoner19.workers.dev/?url=https://zeusplayer.org:443/live/Gee123/Gee321/423550.ts
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+https://1.nejyoner19.workers.dev/?url=https://zeusplayer.org:443/live/Gee123/Gee321/423551.ts
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+https://1.nejyoner19.workers.dev/?url=http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/39558
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+https://1.nejyoner19.workers.dev/?url=http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/39557
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+https://1.nejyoner19.workers.dev/?url=https://zeusplayer.org:443/live/Gee123/Gee321/423552.ts
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+https://1.nejyoner19.workers.dev/?url=https://zeusplayer.org:443/live/Gee123/Gee321/423553.ts
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+https://1.nejyoner19.workers.dev/?url=http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/39560
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+https://1.nejyoner19.workers.dev/?url=http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/39556
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://1.nejyoner19.workers.dev/?url=http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/10698
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://1.nejyoner19.workers.dev/?url=http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/1162637
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://1.nejyoner19.workers.dev/?url=http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/1162644
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+https://1.nejyoner19.workers.dev/?url=http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/10701
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+https://1.nejyoner19.workers.dev/?url=http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/10697
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/10699
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/10699
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/1162634
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/1162642
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/44446
+#EXTINF:-1 group-title="☪️ b5",🟣 b5
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/314885
+#EXTINF:-1 group-title="☪️ b5",🟣 b5
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/1162638
+#EXTINF:-1 group-title="☪️ b5",🟣 b5
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/314886
+#EXTINF:-1 group-title="☪️ m1",🟣 m1
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/44444
+#EXTINF:-1 group-title="☪️ m1",🟣 m1
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/196273
+#EXTINF:-1 group-title="☪️ m1",🟣 m1
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/196272
+#EXTINF:-1 group-title="☪️ m1",🟣 m1
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/44442
+#EXTINF:-1 group-title="☪️ m2",🟣 m2
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/44445
+#EXTINF:-1 group-title="☪️ m2",🟣 m2
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/44445
+#EXTINF:-1 group-title="☪️ m2",🟣 m2
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/196274
+#EXTINF:-1 group-title="☪️ m2",🟣 m2
+http://front-main.eagle-4k.me:80/a5n1qj2z7h/z7san35uxz/44443
+
+#EXTINF:-1 group-title="☪️ b1",🟣 b1
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+
+#EXTVLCOPT:http-referrer=https://trgoals1350.xyz/
+
+https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
+#EXTINF:-1 group-title="☪️ b2",🟣 b2
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+
+#EXTVLCOPT:http-referrer=https://trgoals1350.xyz/
+
+https://r0.4928d54d950ee70q17.lat/yayinb2.m3u8
+#EXTINF:-1 group-title="☪️ b3",🟣 b3
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+
+#EXTVLCOPT:http-referrer=https://trgoals1350.xyz/
+
+https://r0.4928d54d950ee70q17.lat/yayinb3.m3u8
+#EXTINF:-1 group-title="☪️ b4",🟣 b4
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+
+#EXTVLCOPT:http-referrer=https://trgoals1350.xyz/
+
+https://r0.4928d54d950ee70q17.lat/yayinb4.m3u8
+#EXTINF:-1 group-title="☪️ b5",🟣 b5
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+
+#EXTVLCOPT:http-referrer=https://trgoals1350.xyz/
+
+https://r0.4928d54d950ee70q17.lat/yayinb5.m3u8
+#EXTINF:-1 group-title="☪️ m1",🟣 m1
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+
+#EXTVLCOPT:http-referrer=https://trgoals1350.xyz/
+
+https://r0.4928d54d950ee70q17.lat/yayinbm1.m3u8
+#EXTINF:-1 group-title="☪️ m2",🟣 m2
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+
+#EXTVLCOPT:http-referrer=https://trgoals1350.xyz/
+
+https://r0.4928d54d950ee70q17.lat/yayinbm2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 1 [C] [7/24]" tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-1.png" group-title="⚽ beIN Sports",beIN SPORTS 1 [C] [720p]
 https://bs.arectv33.sbs/static/bs11.m3u8
