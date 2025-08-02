@@ -29,6 +29,10 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-name="360" tvg-id="" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/360-tr.png" group-title="📰 Ulusal",360
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 group-title="📰 Ulusal",teve2
+https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
+#EXTINF:-1 group-title="📰 Ulusal",TEVE2
+https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_0_192/playlist.m3u8
 #EXTINF:-1 tvg-name="SHOWMAX TV" tvg-id="" tvg-logo="https://i.ibb.co/qJnvXJQ/show-max.png" group-title="📰 Ulusal",SHOWMAX TV
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/shmax.m3u8
 #EXTINF:-1 tvg-name="A HABER" tvg-id="" tvg-logo="https://i.ibb.co/Hhjcgm3/a-haber.png" group-title="🗞️ Haber",A HABER
@@ -293,10 +297,22 @@ https://r14.af91.workers.dev/static/bs5.m3u8
 https://vavoo.to/play/4071474743/index.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS MAX 2 [HD]" tvg-id="BeinsportsMax2.tr" tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/bein_sports_yeni_MAX_2_250x150_.png" group-title="⚽ beIN Sports",beIN SPORTS MAX 2 [HD]
 https://vavoo.to/play/225281423/index.m3u8
+#EXTINF:-1 group-title="🏋️ S-Sport / EuroSport",Sport Smart
+https://217.30.11.74/e/155.m3u8
+#EXTINF:-1 group-title="🏋️ S-Sport / EuroSport",Sport Smart2
+https://217.30.11.74/e/156.m3u8
+#EXTINF:-1 group-title="🏋️ S-Sport / EuroSport",Aspor
+https://217.30.11.74/e/158.m3u8
+#EXTINF:-1 group-title="🏋️ S-Sport / EuroSport",Trtspor
+https://217.30.11.74/e/157.m3u8
 #EXTINF:-1 tvg-name="S SPORT" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0nhm9L4I63-p2z0Cla6neBAz1ZJ1X4go6QQ&s" group-title="🏋️ S-Sport / EuroSport",S SPORT
 https://vavoo.to/play/3531762195/index.m3u8
+#EXTINF:-1 tvg-name="S SPORT" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0nhm9L4I63-p2z0Cla6neBAz1ZJ1X4go6QQ&s" group-title="🏋️ S-Sport / EuroSport",S SPORT_a
+https://217.30.11.74/e/3030.m3u8
 #EXTINF:-1 tvg-name="S SPORT 2" tvg-id="" tvg-logo="https://static.ssportplus.com/wp-content/uploads/2024/03/S-Sport-2-logo-1.png" group-title="🏋️ S-Sport / EuroSport",S SPORT-2
 https://vavoo.to/play/1183409452/index.m3u8
+#EXTINF:-1 tvg-name="S SPORT 2" tvg-id="" tvg-logo="https://static.ssportplus.com/wp-content/uploads/2024/03/S-Sport-2-logo-1.png" group-title="🏋️ S-Sport / EuroSport",S SPORT-2_a
+https://217.30.11.74/e/3031.m3u8
 #EXTINF:-1 tvg-name="S-SPORT+1" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ssport-plus-.png/220px-Ssport-plus-.png" group-title="🏋️ S-Sport / EuroSport",S-SPORT+1
 https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/pl1.m3u8
 #EXTINF:-1 tvg-name="S-SPORT+2" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ssport-plus-.png/220px-Ssport-plus-.png" group-title="🏋️ S-Sport / EuroSport",S-SPORT+2
