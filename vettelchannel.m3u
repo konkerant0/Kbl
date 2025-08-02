@@ -62,9 +62,9 @@ https://dogus-live.daioncdn.net/tlc/tlc_720p.m3u8
 #EXTINF:-1 tvg-name="DMAX" tvg-id="Dmax.tr" tvg-logo="https://i.ibb.co/1LH22gK/dmax.png" group-title="📽️ Belgesel",DMAX
 https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8
 #EXTINF:-1 tvg-name="DOCU SCREEN" tvg-id="" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/docu_screen.jpeg" group-title="📽️ Belgesel",DOCU SCREEN
-https://tv1.arectv30.sbs/live/docubox.m3u8
+https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/docubox.m3u8
 #EXTINF:-1 tvg-name="TARİH TV" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Tarih-tv-logo-siyah-1080x1080.png" group-title="📽️ Belgesel",TARİH TV
-https://tv1.arectv30.sbs/live/tarihtv.m3u8
+https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/tarihtv.m3u8
 #EXTINF:-1 tvg-name="HİSTORY TV" tvg-id="32" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/1200px-History_%282021%29.svg.png" group-title="📽️ Belgesel",HİSTORY TV
 https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/history.m3u8
 #EXTINF:-1 tvg-name="National Geoghrapic" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/2560px-Natgeologo.svg.png" group-title="📽️ Belgesel",National Geoghrapic
@@ -76,7 +76,7 @@ https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/bbc.m3u8
 #EXTINF:-1 tvg-name="DISCOVERY CHANNEL" tvg-id="79" tvg-logo="https://yt3.googleusercontent.com/szXLDeuU3m19j99dxQo1HA7w0K09_REHxWa_HTwMnomnZLHN_yQznYziP90zWpTYAoiWOWMtSX4=s900-c-k-c0x00ffffff-no-rj" group-title="📽️ Belgesel",DISCOVERY CHANNEL
 https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/discovery.m3u8
 #EXTINF:-1 tvg-name="DISCOVERY ID" tvg-id="78" tvg-logo="https://eu1-prod-images.disco-api.com/2023/06/15/ed5f9907-e2ef-33c8-8129-d64b301d46c3.png?bf=0&f=jpg&p=true&q=70&w=1920" group-title="📽️ Belgesel",DISCOVERY ID
-hhttps://tv1.arectv30.sbs/live/discs.m3u8
+https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/discs.m3u8
 #EXTINF:-1 tvg-name="LOVE NATURE" tvg-id="32" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/1/1d/Love_Nature_TV.png" group-title="📽️ Belgesel",LOVE NATURE
 https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/lovenature.m3u8
 #EXTINF:-1 tvg-name="VIASAT EXPLORE" tvg-id="30" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c3/Viasat_Explore-logo.svg" group-title="📽️ Belgesel",VIASAT EXPLORE
@@ -264,22 +264,29 @@ https://r0.4928d54d950ee70q17.lat/yayinbm2.m3u8
 https://bs.arectv33.sbs/static/bs11.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS 1 [D]" tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-1.png" group-title="⚽ beIN Sports",beIN SPORTS 1 [D]
 https://vavoo.to/play/1352421053/index.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS 1 [E]" tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-1.png" group-title="⚽ beIN Sports",beIN SPORTS 1 [E]
+https://goldvod.org/tv/free?id=158
 #EXTINF:-1 tvg-name="BeIN SPORTS 2 [A]" tvg-id="" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-2.png" group-title="⚽ beIN Sports",BeIN SPORTS 2 [A]
 https://vavoo.to/play/2851539143/index.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS 2 [B]" tvg-id="148" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-2.png" group-title="⚽ beIN Sports",beIN SPORTS 2 [B]
 https://vavoo.to/play/3694662475/index.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS 2 [C]" tvg-id="148" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-2.png" group-title="⚽ beIN Sports",beIN SPORTS 2 [C]
+https://goldvod.org/tv/free?id=159
 #EXTINF:-1 tvg-name="beIN SPORTS 3 [A]" tvg-id="" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-3.png" group-title="⚽ beIN Sports",beIN SPORTS 3 [A]
 https://vavoo.to/play/1700595801/index.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS 3 [B]" tvg-id="147" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-3.png" group-title="⚽ beIN Sports",beIN SPORTS 3 [B]
 https://vavoo.to/play/3410167560/index.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS 3 [C]" tvg-id="147" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-3.png" group-title="⚽ beIN Sports",beIN SPORTS 3 [c]
+https://goldvod.org/tv/free?id=160
 #EXTINF:-1 tvg-name="beIN SPORTS 4 [A]" tvg-id="" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-4.png" group-title="⚽ beIN Sports",beIN SPORTS 4 [A]
 https://vavoo.to/play/2938268353/index.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS 4 [B]" tvg-id="146" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-4.png" group-title="⚽ beIN Sports",beIN SPORTS 4 [B]
 https://r14.af91.workers.dev/static/bs4.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS 4 [C]" tvg-id="146" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/logos/bein-sports-4.png" group-title="⚽ beIN Sports",beIN SPORTS 4 [C]
+#EXTINF:-1 group-title="TURKEY", beIN SPORTS 4 Turkey
+https://goldvod.org/tv/free?id=161
 #EXTINF:-1 tvg-name="BeIN SPORTS 5" tvg-id="" tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/beIN_SPORTS5_250x150.png" group-title="⚽ beIN Sports",BeIN SPORTS 5
-https://lll.mevzuhls35.cfd/yayinb5.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS 5 [B]" tvg-id="" tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/beIN_SPORTS5_250x150.png" group-title="⚽ beIN Sports",beIN SPORTS 5 [B]
-https://lll.mevzuhls35.cfd/yayinb5.m3u8
+https://goldvod.org/tv/free?id=212
 #EXTINF:-1 tvg-name="beIN SPORTS 5 [C]" tvg-id="" tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/beIN_SPORTS5_250x150.png" group-title="⚽ beIN Sports",beIN SPORTS 5 [C]
 https://r14.af91.workers.dev/static/bs5.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS MAX 1 [HD]" tvg-id="BeinsportsMax.tr" tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/bein_sports_yeni_MAX_1_250x150_.png" group-title="⚽ beIN Sports",beIN SPORTS MAX 1 [HD]
@@ -342,4 +349,16 @@ https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/sinemaaile.m
 https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/sinema1001.m3u8
 #EXTINF:-1 tvg-name="SİNEMA TV 1002" tvg-id="52" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/sinema-1002-tr.png" group-title="🎬 Sinema",SİNEMA TV 1002
 https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/sinema1002.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sinema Tv" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/22c5fe05-d70b-4c68-98fb-03bae4870e81.png" group-title="🎬 Sinema",Sinema Tv
+https://kablo-stream.koprulu.workers.dev/?id=sinematv&extension=m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sinema Aksiyon" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/bd434731-0e47-4a37-997e-49f71340fcc6.png" group-title="🎬 Sinema",Sinema Aksiyon
+https://kablo-stream.koprulu.workers.dev/?id=sinemaaksiyon&extension=m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sinema Yerli" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/ae3d90a0-37ee-4e48-a6bc-1375e5f1329a.png" group-title="🎬 Sinema",Sinema Yerli
+https://kablo-stream.koprulu.workers.dev/?id=sinemayerli&extension=m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sinema Aile" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c8283b71-81f8-4fc6-8e48-6bb8f7f49ad7.png" group-title="🎬 Sinema",Sinema Aile
+https://kablo-stream.koprulu.workers.dev/?id=sinemaaile&extension=m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sinema 1001" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/8d9fbebd-cade-492d-9cb4-6522cb558794.png" group-title="🎬 Sinema",Sinema 1001
+https://kablo-stream.koprulu.workers.dev/?id=sinema1001&extension=m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sinema Komedi" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4145ea10-96ad-400d-8870-f22a075f4add.png" group-title="🎬 Sinema",Sinema Komedi
+https://kablo-stream.koprulu.workers.dev/?id=sinemakomedi&extension=m3u8
 
