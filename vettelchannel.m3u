@@ -313,12 +313,15 @@ https://217.30.11.74/e/3030.m3u8
 https://vavoo.to/play/1183409452/index.m3u8
 #EXTINF:-1 tvg-name="S SPORT 2" tvg-id="" tvg-logo="https://static.ssportplus.com/wp-content/uploads/2024/03/S-Sport-2-logo-1.png" group-title="🏋️ S-Sport / EuroSport",S SPORT-2_a
 https://217.30.11.74/e/3031.m3u8
-#EXTINF:-1 tvg-name="S-SPORT+1" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ssport-plus-.png/220px-Ssport-plus-.png" group-title="🏋️ S-Sport / EuroSport",S-SPORT+1
-https://1.nejyoner19.workers.dev/?url=https://tv1.arectv30.sbs/live/pl1.m3u8
-#EXTINF:-1 tvg-name="S-SPORT+2" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ssport-plus-.png/220px-Ssport-plus-.png" group-title="🏋️ S-Sport / EuroSport",S-SPORT+2
-https://tv1.arectv30.sbs/live/pl2.m3u8
-#EXTINF:-1 tvg-name="S-SPORT+3" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ssport-plus-.png/220px-Ssport-plus-.png" group-title="🏋️ S-Sport / EuroSport",S-SPORT+3
-https://tv1.arectv30.sbs/live/pl3.m3u8
+#EXTINF:-1 group-title="🏋️ S-Sport / EuroSport", S Sport Plus1
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0 Dalvik/2.1.0 Mozilla/5.0 (m3u-ip.tv 2.2.4) Android  
+https://8.arectv30.sbs/static/pl1.m3u8?|user-agent=okhttp/4.12.0
+#EXTINF:-1 group-title="🏋️ S-Sport / EuroSport", S Sport Plus3
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0 Dalvik/2.1.0 Mozilla/5.0 (m3u-ip.tv 2.2.4) Android  
+https://8.arectv30.sbs/static/pl3.m3u8?|user-agent=okhttp/4.12.0
+#EXTINF:-1 group-title="🏋️ S-Sport / EuroSport", S Sport Plus2
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0 Dalvik/2.1.0 Mozilla/5.0 (m3u-ip.tv 2.2.4) Android  
+https://8.arectv30.sbs/static/pl2.m3u8?|user-agent=okhttp/4.12.0
 #EXTINF:-1 tvg-name="EuroSport 1" tvg-id="" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/eurosport-1-hd-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="🏋️ S-Sport / EuroSport",EuroSport 1
 https://tv1.arectv30.sbs/live/euro1.m3u8
 #EXTINF:-1 tvg-name="EuroSport 2" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=d23wpwoe2km11q8yrkdt1vne0_image-header_pDach_1661948775000&quality=70" group-title="🏋️ S-Sport / EuroSport",EuroSport 2
