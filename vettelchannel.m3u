@@ -116,11 +116,11 @@ https://live-cdn-65984.varplaycdn.cfd/801/index.m3u8
 #EXTINF:-1 group-title="☪️ m2",🟣 m2
 https://live-cdn-65984.varplaycdn.cfd/802/index.m3u8
 #EXTINF:-1 group-title="☪️ b1",🟣 b1
-https://lively1.cf4-86.workers.dev/static/bs1.m3u8
+http://57.129.73.112:8480/701/index.m3u8
 #EXTINF:-1 group-title="☪️ b2",🟣 b2
-https://lively1.cf4-86.workers.dev/static/bs2.m3u8
+http://57.129.73.112:8480/702/index.m3u8
 #EXTINF:-1 group-title="☪️ b3",🟣 b3
-https://lively1.cf4-86.workers.dev/static/bs3.m3u8
+http://57.129.73.112:8480/708/index.m3u8
 #EXTINF:-1 group-title="☪️ b4",🟣 b4
 https://lively1.cf4-86.workers.dev/static/bs4.m3u8
 #EXTINF:-1 group-title="☪️ b5",🟣 b5
