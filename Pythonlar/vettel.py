@@ -5,6 +5,7 @@ m3u_urls = [
     "https://raw.githubusercontent.com/atakan1983/kabloo/refs/heads/main/mehmet.m3u",
     "https://raw.githubusercontent.com/koprulu5564/rectv/refs/heads/main/rectv_full.m3u",
     "https://raw.githubusercontent.com/atakan1983/goltrx/refs/heads/main/trgoals.m3u",
+    "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/master/NeonSpor/NeonSpor.m3u8",
 ]
 
 # Çıktı dosyası adı
