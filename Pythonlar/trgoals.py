@@ -1,152 +1,141 @@
-from httpx import Client
-from parsel import Selector
 import re
-import os
+import requests
+from typing import Dict, Optional
 
-class Konsol:
-    @staticmethod
-    def log(msg):
-        print(msg)
-    @staticmethod
-    def print(msg):
-        print(msg)
-
-konsol = Konsol()
-
-class TRGoals:
-    def __init__(self, m3u_dosyasi):
-        self.m3u_dosyasi = m3u_dosyasi
-        self.httpx = Client(timeout=10, verify=False)
-        self.proxy_url_sablonu = 
-
-    def referer_domainini_al(self):
-        desen = r'#EXTVLCOPT:http-referrer=(https?://[^/]*trgoals[^/]*\.[^\s/]+)'
-        with open(self.m3u_dosyasi, "r") as dosya:
-            icerik = dosya.read()
-        if eslesme := re.search(desen, icerik):
-            return eslesme[1]
-        raise ValueError("Referer domain bulunamadı!")
-
-    def trgoals_domaini_al(self):
-        redirect_url = "https://bit.ly/m/taraftarium24w"
-        for deneme in range(5):
-            if "bit.ly" not in redirect_url:
-                break
-            try:
-                redirect_url = self.redirect_gec(redirect_url)
-            except Exception as e:
-                konsol.log(f"[red][!] redirect_gec hata: {e}")
-                break
-
-        if "bit.ly" in redirect_url or "error" in redirect_url:
-            konsol.log("[yellow][!] Bit.ly çözülemedi, yedek linke geçiliyor...")
-            try:
-                redirect_url = self.redirect_gec("https://t.co/aOAO1eIsqE")
-            except Exception as e:
-                raise ValueError(f"Yedek link hata verdi: {e}")
-
-        return redirect_url
-
-    def redirect_gec(self, redirect_url: str):
-        konsol.log(f"[cyan][~] redirect_gec çağrıldı: {redirect_url}")
-        try:
-            response = self.httpx.get(redirect_url, follow_redirects=True)
-        except Exception as e:
-            raise ValueError(f"Redirect hatası: {e}")
-        url_zinciri = [str(r.url) for r in response.history] + [str(response.url)]
-        for url in reversed(url_zinciri):
-            if "trgoals" in url:
-                return url.strip("/")
-        raise ValueError("'trgoals' içeren link bulunamadı!")
-
-    def yeni_domaini_al(self, eldeki_domain: str) -> str:
-        def check(domain):
-            if domain == "https://trgoalsgiris.xyz":
-                raise ValueError("Yeni domain geçersiz")
-            return domain
-
-        try:
-            return check(self.redirect_gec(eldeki_domain))
-        except:
-            konsol.log("[red][!] redirect_gec(eldeki_domain) başarısız")
-            try:
-                return check(self.trgoals_domaini_al())
-            except:
-                konsol.log("[red][!] trgoals_domaini_al başarısız")
-                try:
-                    return check(self.redirect_gec("https://t.co/MTLoNVkGQN"))
-                except:
-                    konsol.log("[red][!] yedek link de başarısız")
-                    rakam = int(eldeki_domain.split("trgoals")[1].split(".")[0]) + 1
-                    return f"https://trgoals{rakam}.xyz"
-
-    def m3u8_linklerini_proxy_yap(self, icerik: str) -> str:
-        konsol.log("[cyan][~] Proxy uygulanıyor...")
-        desen = r"(https?://[^\s\"']+?\.m3u8[^\s\"']*)"
-        def degistir(eslesme):
-            url = eslesme.group(1)
-            if not url.startswith(self.proxy_url_sablonu):
-                yeni = f"{self.proxy_url_sablonu}{url}"
-                konsol.log(f"[yellow]  Değiştirildi: {url} -> {yeni}")
-                return yeni
-            konsol.log(f"[blue]  Zaten proxy'li: {url}")
-            return url
-        return re.sub(desen, degistir, icerik)
-
-    def m3u_guncelle(self):
-        eldeki = self.referer_domainini_al()
-        konsol.log(f"[yellow][~] Bilinen Domain : {eldeki}")
-
-        yeni = self.yeni_domaini_al(eldeki)
-        konsol.log(f"[green][+] Yeni Domain : {yeni}")
-
-        kontrol_url = f"{yeni}/channel.html?id=yayin1"
-
-        with open(self.m3u_dosyasi, "r") as dosya:
-            icerik = dosya.read()
-
-        if not (eski := re.search(r'https?:\/\/[^\/]+\.(workers\.dev|shop|click|lat)\/?', icerik)):
-            raise ValueError("Eski yayın URL'si bulunamadı!")
-
-        eski_url = eski[0]
-        konsol.log(f"[yellow][~] Eski Yayın URL : {eski_url}")
-
-        response = self.httpx.get(kontrol_url, follow_redirects=True)
-        secici = Selector(response.text)
-        baslik = secici.xpath("//title/text()").get()
-
-        if response.status_code != 200 or baslik in ["404 Not Found", "502: Bad gateway"]:
-            konsol.log(f"[red][!] Sunucu durumu {response.status_code} — fallback uygulanıyor")
-            yayin_url = eski_url
-            yeni = eldeki
-        else:
-            if not (yayin := re.search(r'(?:var|let|const)\s+baseurl\s*=\s*"(https?://[^"]+)"', response.text)):
-                konsol.print(response.text)
-                raise ValueError("Base URL bulunamadı!")
-            yayin_url = yayin[1]
-
-        konsol.log(f"[green][+] Yeni Yayın URL : {yayin_url}")
-
-        yeni_icerik = (
-            icerik.replace(eski_url, yayin_url)
-                  .replace(eldeki, yeni)
+def fetch_content(url: str) -> Optional[str]:
+    """URL'den içerik çeker"""
+    try:
+        response = requests.get(
+            url,
+            headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)'},
+            verify=False,
+            timeout=15
         )
-        yeni_icerik = self.m3u8_linklerini_proxy_yap(yeni_icerik)
+        return response.text
+    except Exception as e:
+        print(f"Hata: {url} - {str(e)}")
+        return None
 
-        with open(self.m3u_dosyasi, "w") as dosya:
-            dosya.write(yeni_icerik)
+def get_dynamic_urls() -> Dict[str, str]:
+    """Dinamik domain ve base URL'leri alır"""
+    # 1. Redirect URL'yi al
+    redirect_content = fetch_content('https://eniyiyayinci.github.io/redirect/index.html')
+    domain_match = re.search(r'URL=(https:\/\/[^"]+)', redirect_content or '')
+    dynamic_domain = (domain_match.group(1) if domain_match else 'https://trgoals896.xyz').rstrip('/') + '/'
+
+    # 2. Base URL'yi al
+    channel_content = fetch_content(f"{dynamic_domain}channel.html")
+    base_match = re.search(r'const\s+baseurl\s*=\s*["\']([^"\']+)["\']', channel_content or '', re.IGNORECASE)
+    base_url = (base_match.group(1) if base_match else 'https://iss.trgoalshls1.shop').rstrip('/') + '/'
+
+    return {
+        'dynamic_domain': dynamic_domain,
+        'base_url': base_url
+    }
+
+def generate_m3u() -> str:
+    """M3U playlist oluşturur"""
+    urls = get_dynamic_urls()
+    
+    # TAM Kanal Listesi (PHP'dekiyle birebir aynı)
+    channels = {
+        1: "BEIN SPORTS 1 (ZIRVE)",
+        2: "BEIN SPORTS 1 (1)",
+        3: "BEIN SPORTS 1 (INAT)",
+        4: "BEIN SPORTS 2",
+        5: "BEIN SPORTS 3",
+        6: "BEIN SPORTS 4",
+        7: "BEIN SPORTS 5",
+        8: "BEIN SPORTS MAX 1",
+        9: "BEIN SPORTS MAX 2",
+        10: "S SPORT PLUS 1",
+        11: "S SPORT PLUS 2",
+        13: "TIVIBU SPOR 1",
+        14: "TIVIBU SPOR 2",
+        15: "TIVIBU SPOR 3",
+        16: "SPOR SMART 1",
+        17: "SPOR SMART 2",
+        18: "TRT SPOR 1",
+        19: "TRT SPOR 2",
+        20: "TRT 1",
+        21: "A SPOR",
+        22: "ATV",
+        23: "TV 8",
+        24: "TV 8.5",
+        25: "FORMULA 1",
+        26: "NBA TV",
+        27: "EURO SPORT 1",
+        28: "EURO SPORT 2",
+        29: "EXXEN SPOR 1",
+        30: "EXXEN SPOR 2",
+        31: "EXXEN SPOR 3",
+        32: "EXXEN SPOR 4",
+        33: "EXXEN SPOR 5",
+        34: "EXXEN SPOR 6",
+        35: "EXXEN SPOR 7",
+        36: "EXXEN SPOR 8"
+    }
+
+    # TAM Stream Path'leri (PHP'dekiyle birebir aynı)
+    stream_paths = {
+        1: "yayinzirve.m3u8",
+        2: "yayin1.m3u8",
+        3: "yayininat.m3u8",
+        4: "yayinb2.m3u8",
+        5: "yayinb3.m3u8",
+        6: "yayinb4.m3u8",
+        7: "yayinb5.m3u8",
+        8: "yayinbm1.m3u8",
+        9: "yayinbm2.m3u8",
+        10: "yayinss.m3u8",
+        11: "yayinss2.m3u8",
+        13: "yayint1.m3u8",
+        14: "yayint2.m3u8",
+        15: "yayint3.m3u8",
+        16: "yayinsmarts.m3u8",
+        17: "yayinsms2.m3u8",
+        18: "yayintrtspor.m3u8",
+        19: "yayintrtspor2.m3u8",
+        20: "yayintrt1.m3u8",
+        21: "yayinas.m3u8",
+        22: "yayinatv.m3u8",
+        23: "yayintv8.m3u8",
+        24: "yayintv85.m3u8",
+        25: "yayinf1.m3u8",
+        26: "yayinnbatv.m3u8",
+        27: "yayineu1.m3u8",
+        28: "yayineu2.m3u8",
+        29: "yayinex1.m3u8",
+        30: "yayinex2.m3u8",
+        31: "yayinex3.m3u8",
+        32: "yayinex4.m3u8",
+        33: "yayinex5.m3u8",
+        34: "yayinex6.m3u8",
+        35: "yayinex7.m3u8",
+        36: "yayinex8.m3u8"
+    }
+
+    # M3U başlığı
+    m3u_content = [
+        '#EXTM3U x-tvg-url=""',
+        '#EXTINF:-1 tvg-id="trgoals" tvg-name="TRGOALS" group-title="TRGOALS",TRGOALS Master Playlist'
+    ]
+
+    # Kanal ekleme
+    for channel_id, channel_name in channels.items():
+        if channel_id in stream_paths:
+            stream_url = f"{urls['base_url']}{stream_paths[channel_id]}|referer={urls['dynamic_domain']}"
+            m3u_content.extend([
+                f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{channel_name}" group-title="TRGOALS",{channel_name}',
+                '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)',
+                f'#EXTVLCOPT:http-referer={urls["dynamic_domain"]}',
+                stream_url
+            ])
+
+    return '\n'.join(m3u_content)
 
 if __name__ == "__main__":
-    if not os.path.exists("trgoals.m3u"):
-        with open("trgoals.m3u", "w") as f:
-            f.write("""#EXTM3U
-#EXTVLCOPT:http-referrer=https://trgoals1352.xyz
-#EXTINF:-1 group-title="TRGoals Spor",TRGoals HD
-https://r0.4928d54d950ee70q17.lat/
-#EXTINF:-1 group-title="TRGoals Futbol",Maç 1
-https://cdn.example.com/live/match1.m3u8
-#EXTINF:-1 group-title="TRGoals Basketbol",Maç 2
-https://cdn.example.com/live/match2.m3u8
-""")
-    guncelleyici = TRGoals("trgoals.m3u")
-    guncelleyici.m3u_guncelle()
+    m3u_output = generate_m3u()
+    with open('trgoals.m3u', 'w', encoding='utf-8') as f:
+        f.write(m3u_output)
+    print("M3U dosyası başarıyla oluşturuldu!")
