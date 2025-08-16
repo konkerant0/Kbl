@@ -4,6 +4,7 @@ import requests
 m3u_urls = [
     "https://raw.githubusercontent.com/atakan1983/kabloo/refs/heads/main/mehmet.m3u",
     "https://raw.githubusercontent.com/Kutlu0319/metvsrbn/refs/heads/main/1.m3u",
+    "https://raw.githubusercontent.com/Kutlu0319/metvsrbn/refs/heads/main/selcuk.m3u",
     
 ]
 
