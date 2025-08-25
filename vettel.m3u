@@ -1065,31 +1065,6 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="FASHION TV" tvg-logo="https://www.modelingportfoliosnyc.com/wp-content/uploads/2019/05/03Nh_t0G_400x400.png" group-title="Yaşam & Eğlence",FASHION ONE
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="FASHION TV" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEim2Z3fOlbld89c9io-_JBadvCDwXkKIbFTRoV_6Y1Om8_OfG_w3zRw1AfnpU9Jh5X004puoh2zWzztMDivyCCegO7--45QP61dwfuk7xqgVS3CKO5LB_BmehXV6-fb-Uf2GALd3fdI9os7DavgKF1oF3TGON1RLqrsA4MkBWKsBFtpRX_B9OZysZpnGqU=s250" group-title="Yaşam & Eğlence",FORTUNA TV
-https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="FASHION TV" tvg-logo="https://i.ibb.co/DKHDfbr/wmtv.png" group-title="Yaşam & Eğlence",WOMAN TV
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://s01.webcaster.cloud/wmtv/live_1080p.m3u8
-
-
-
-
-# * » DİNİ « * #
-
-#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8322c403-9f7c-4b5a-aef1-7c65e56ee8a6.png" group-title="Dini",Lalegül TV
-https://lbl.netmedya.net/hls/lalegultv.m3u8
-
-#EXTINF:-1 tvg-name="diyanettv" tvg-logo="https://i.ibb.co/k9phm3v/diyanettv.png" group-title="Dini",DİYANET TV
-https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/mt_0.m3u8
-
-#EXTINF:-1 tvg-name="SEMERKAND TV" tvg-logo="https://www.semerkandtv.com.tr/Content/img/logo.png" group-title="Dini",SEMERKAND TV
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_0.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",BeIN Sports 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://one.c6424d37be4efd3f.click/live/selcukbeinsports1/playlist.m3u8
